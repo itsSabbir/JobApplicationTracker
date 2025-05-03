@@ -51,6 +51,60 @@ The initial version of the Job Application Tracker will include the following co
 *   **Deployment:** Docker, Azure (App Service, SQL Database, Static Web Apps)
 *   **CI/CD:** GitHub Actions (Optional)
 
+## Development Environment Setup
+
+To set up your local development environment for this project, you will need the following tools installed:
+
+1.  **.NET 8 SDK:**
+    *   **Required:** The core Software Development Kit for building .NET applications.
+    *   **Download:** [https://dotnet.microsoft.com/download/dotnet/8.0](https://dotnet.microsoft.com/download/dotnet/8.0)
+    *   **Verify Installation:** Open a terminal or command prompt and run `dotnet --version`. You should see a version starting with `8.x.x`.
+
+2.  **Visual Studio 2022 (or later):**
+    *   **Recommended IDE:** Provides a rich development experience for .NET. The Community Edition is free.
+    *   **Download:** [https://visualstudio.microsoft.com/vs/](https://visualstudio.microsoft.com/vs/)
+    *   **Required Workloads:** During installation, ensure you select:
+        *   `ASP.NET and web development`
+    *   **Optional but Recommended Components:**
+        *   `Data storage and processing` (Includes SQL Server tools)
+        *   `Container development tools` (For Docker integration)
+
+3.  **Entity Framework Core Tools:**
+    *   **Required:** For managing database migrations (code-first approach).
+    *   **Installation:** Open a terminal or command prompt and run:
+        ```bash
+        dotnet tool install --global dotnet-ef
+        ```
+    *   **Verify Installation:** Run `dotnet ef --version`.
+
+4.  **Database Server:**
+    *   **Choose ONE:**
+        *   **SQL Server Developer Edition:** A full-featured free edition for development and testing.
+            *   **Download:** [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+            *   **Management Tool:** SQL Server Management Studio (SSMS) - [Download SSMS](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
+        *   **PostgreSQL:** A powerful open-source object-relational database system.
+            *   **Download:** [https://www.postgresql.org/download/](https://www.postgresql.org/download/)
+            *   **Management Tool:** pgAdmin - [Download pgAdmin](https://www.pgadmin.org/download/) or DBeaver.
+    *   **Note:** The project will initially be configured for one, but EF Core allows switching relatively easily. We will likely start with SQL Server unless you prefer PostgreSQL.
+
+5.  **API Testing Tool:**
+    *   **Required:** For testing the backend API endpoints.
+    *   **Recommended:** Postman
+        *   **Download:** [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
+    *   **Alternatives:** Insomnia, Visual Studio Code REST Client extension.
+
+6.  **Git:**
+    *   **Required:** For version control.
+    *   **Download:** [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+7.  **(Optional) Docker Desktop:**
+    *   **Recommended for later phases:** Useful for containerizing the application and database for consistent environments and deployment.
+    *   **Download:** [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
+
+---
+
+Once you have these tools installed, you should be ready to clone the repository (if applicable) and start building the backend.
+
 ## Project Goals
 
 *   To build a functional, real-world application demonstrating modern .NET development practices.
