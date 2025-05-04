@@ -1,0 +1,13 @@
+2025-05-03 22:45:45.380 -04:00 [INF]   Starting JobApplicationTracker.Api web host
+2025-05-03 22:45:45.654 -04:00 [INF]  Microsoft.Hosting.Lifetime Now listening on: http://localhost:5031
+2025-05-03 22:45:45.658 -04:00 [INF]  Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-05-03 22:45:45.659 -04:00 [INF]  Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-05-03 22:45:45.659 -04:00 [INF]  Microsoft.Hosting.Lifetime Content root path: C:\Users\hossa\OneDrive\Documents\GitHub\JobApplicationTracker\backend\JobApplicationTracker.Api
+2025-05-03 22:46:41.111 -04:00 [INF] 0HNCAMNJ1PUCH:00000001 Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger responded 301 in 4.4625 ms
+2025-05-03 22:46:41.156 -04:00 [INF] 0HNCAMNJ1PUCH:00000002 Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/index.html responded 200 in 31.9991 ms
+2025-05-03 22:46:41.188 -04:00 [INF] 0HNCAMNJ1PUCJ:00000001 Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 5.1094 ms
+2025-05-03 22:46:41.188 -04:00 [INF] 0HNCAMNJ1PUCH:00000003 Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui.css responded 200 in 6.2608 ms
+2025-05-03 22:46:41.189 -04:00 [INF] 0HNCAMNJ1PUCI:00000001 Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 5.9533 ms
+2025-05-03 22:46:41.278 -04:00 [INF] 0HNCAMNJ1PUCI:00000002 Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/favicon-16x16.png responded 200 in 0.2016 ms
+2025-05-03 22:46:41.313 -04:00 [INF] 0HNCAMNJ1PUCI:00000003 Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/v1/swagger.json responded 200 in 31.6368 ms
+2025-05-03 22:47:50.469 -04:00 [INF]  Microsoft.Hosting.Lifetime Application is shutting down...
